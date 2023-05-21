@@ -1,11 +1,11 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+
 
 export default function PostsScreen() {
     return (
         <View style={styles.container}>
             <Text>PostsScreen</Text>
-            <StatusBar style="auto" />
+            
         </View>
     )
 }

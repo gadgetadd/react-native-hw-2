@@ -1,5 +1,5 @@
 import { Button, StyleSheet, Text, TextInput, View, } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+
 
 export default function RegistrationScreen() {
     return (
@@ -12,7 +12,7 @@ export default function RegistrationScreen() {
                 <Button title="Register" color="#FF6C00" />
                 <Text style={styles.text}>Already have an account ? Log in</Text>
             </View>
-            <StatusBar style="auto" />
+
         </View>
     )
 }

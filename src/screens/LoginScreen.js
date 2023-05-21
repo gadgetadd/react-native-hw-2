@@ -1,5 +1,5 @@
 import { Button, StyleSheet, Text, TextInput, View, } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+
 
 export default function LoginScreen() {
     return (
@@ -11,7 +11,6 @@ export default function LoginScreen() {
                 <Button title="Login" color="#FF6C00" />
                 <Text style={styles.text}>Don't have an account? Register</Text>
             </View>
-            <StatusBar style="auto" />
         </View>
     )
 }
