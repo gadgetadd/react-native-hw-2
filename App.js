@@ -13,6 +13,7 @@ export default function App() {
     'Roboto-Medium': require('./src/assets/fonts/Roboto-Medium.ttf'),
     'Roboto-Regular': require('./src/assets/fonts/Roboto-Regular.ttf'),
     'Roboto-Bold': require('./src/assets/fonts/Roboto-Bold.ttf'),
+    'fontisto': require('./src/assets/fonts/Fontisto.ttf')
   });
 
   if (!fontsLoaded) {
